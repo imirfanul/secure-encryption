@@ -1,0 +1,33 @@
+{
+	"name": "@imirfanul/secure-encryption",
+	"version": "1.0.0",
+	"description": "A simple encryption and decryption service using AES-256-CTR and HMAC-SHA512.",
+	"main": "dist/CryptoService.js",
+	"types": "dist/CryptoService.d.ts",
+	"scripts": {
+		"test": "mocha -r ts-node/register test/**/*.test.ts",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/imirfanul/secure-encryption.git"
+	},
+	"keywords": [
+		"encryption"
+	],
+	"author": "Md Irfanul Alam Tanveer",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/imirfanul/secure-encryption/issues"
+	},
+	"homepage": "https://github.com/imirfanul/secure-encryption#readme",
+	"devDependencies": {
+		"typescript": "^5.5.3",
+		"@types/chai": "^4.3.16",
+		"@types/mocha": "^10.0.7",
+		"@types/node": "^20.14.9",
+		"chai": "^5.1.1",
+		"mocha": "^10.5.2",
+		"ts-node": "^10.9.2"
+	}
+}
