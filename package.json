@@ -5,7 +5,7 @@
 	"main": "dist/CryptoService.js",
 	"types": "dist/CryptoService.d.ts",
 	"scripts": {
-		"test": "mocha -r ts-node/register test/**/*.test.ts",
+		"test": "mocha -r ts-node/register test/*.test.ts",
 		"build": "tsc"
 	},
 	"repository": {
